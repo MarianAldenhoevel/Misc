@@ -1,0 +1,300 @@
+graph G {
+  layout=fdp
+  subgraph Cluster_tisch1 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T1 [label="Tisch 1"];
+    node [shape=circle width=1]
+    T1TAA [label="AA", fillcolor=gray, style=filled];
+    T1 -- T1TAA;
+    T1TAV [label="AV", fillcolor=gray, style=filled];
+    T1 -- T1TAV;
+    T1TBF [label="BF", fillcolor=gray, style=filled];
+    T1 -- T1TBF;
+    T1TBP [label="BP", fillcolor=gray, style=filled];
+    T1 -- T1TBP;
+    T1TBZ [label="BZ", fillcolor=gray, style=filled];
+    T1 -- T1TBZ;
+    T1TCJ [label="CJ", fillcolor=gray, style=filled];
+    T1 -- T1TCJ;
+    T1TCT [label="CT", fillcolor=gray, style=filled];
+    T1 -- T1TCT;
+    T1TDD [label="DD", fillcolor=gray, style=filled];
+    T1 -- T1TDD;
+    T1TDN [label="DN", fillcolor=gray, style=filled];
+    T1 -- T1TDN;
+    T1TDX [label="DX", fillcolor=gray, style=filled];
+    T1 -- T1TDX;
+    T1TEH [label="EH", fillcolor=gray, style=filled];
+    T1 -- T1TEH;
+  }
+  subgraph Cluster_tisch2 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T2 [label="Tisch 2"];
+    node [shape=circle width=1]
+    T2TAB [label="AB", fillcolor=gray, style=filled];
+    T2 -- T2TAB;
+    T2TAL [label="AL", fillcolor=gray, style=filled];
+    T2 -- T2TAL;
+    T2TBG [label="BG", fillcolor=gray, style=filled];
+    T2 -- T2TBG;
+    T2TBQ [label="BQ", fillcolor=gray, style=filled];
+    T2 -- T2TBQ;
+    T2TCA [label="CA", fillcolor=gray, style=filled];
+    T2 -- T2TCA;
+    T2TCK [label="CK", fillcolor=gray, style=filled];
+    T2 -- T2TCK;
+    T2TCU [label="CU", fillcolor=gray, style=filled];
+    T2 -- T2TCU;
+    T2TDE [label="DE", fillcolor=gray, style=filled];
+    T2 -- T2TDE;
+    T2TDO [label="DO", fillcolor=gray, style=filled];
+    T2 -- T2TDO;
+    T2TDY [label="DY", fillcolor=gray, style=filled];
+    T2 -- T2TDY;
+    T2TEI [label="EI", fillcolor=gray, style=filled];
+    T2 -- T2TEI;
+  }
+  subgraph Cluster_tisch3 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T3 [label="Tisch 3"];
+    node [shape=circle width=1]
+    T3TAC [label="AC", fillcolor=gray, style=filled];
+    T3 -- T3TAC;
+    T3TAM [label="AM", fillcolor=gray, style=filled];
+    T3 -- T3TAM;
+    T3TAW [label="AW", fillcolor=gray, style=filled];
+    T3 -- T3TAW;
+    T3TBR [label="BR", fillcolor=gray, style=filled];
+    T3 -- T3TBR;
+    T3TCB [label="CB", fillcolor=gray, style=filled];
+    T3 -- T3TCB;
+    T3TCL [label="CL", fillcolor=gray, style=filled];
+    T3 -- T3TCL;
+    T3TCV [label="CV", fillcolor=gray, style=filled];
+    T3 -- T3TCV;
+    T3TDF [label="DF", fillcolor=gray, style=filled];
+    T3 -- T3TDF;
+    T3TDP [label="DP", fillcolor=gray, style=filled];
+    T3 -- T3TDP;
+    T3TDZ [label="DZ", fillcolor=gray, style=filled];
+    T3 -- T3TDZ;
+    T3TEJ [label="EJ", fillcolor=gray, style=filled];
+    T3 -- T3TEJ;
+  }
+  subgraph Cluster_tisch4 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T4 [label="Tisch 4"];
+    node [shape=circle width=1]
+    T4TAD [label="AD", fillcolor=gray, style=filled];
+    T4 -- T4TAD;
+    T4TAN [label="AN", fillcolor=gray, style=filled];
+    T4 -- T4TAN;
+    T4TAX [label="AX", fillcolor=gray, style=filled];
+    T4 -- T4TAX;
+    T4TBH [label="BH", fillcolor=gray, style=filled];
+    T4 -- T4TBH;
+    T4TCC [label="CC", fillcolor=gray, style=filled];
+    T4 -- T4TCC;
+    T4TCM [label="CM", fillcolor=gray, style=filled];
+    T4 -- T4TCM;
+    T4TCW [label="CW", fillcolor=gray, style=filled];
+    T4 -- T4TCW;
+    T4TDG [label="DG", fillcolor=gray, style=filled];
+    T4 -- T4TDG;
+    T4TDQ [label="DQ", fillcolor=gray, style=filled];
+    T4 -- T4TDQ;
+    T4TEA [label="EA", fillcolor=gray, style=filled];
+    T4 -- T4TEA;
+    T4TEK [label="EK", fillcolor=gray, style=filled];
+    T4 -- T4TEK;
+  }
+  subgraph Cluster_tisch5 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T5 [label="Tisch 5"];
+    node [shape=circle width=1]
+    T5TAE [label="AE", fillcolor=gray, style=filled];
+    T5 -- T5TAE;
+    T5TAO [label="AO", fillcolor=gray, style=filled];
+    T5 -- T5TAO;
+    T5TAY [label="AY", fillcolor=gray, style=filled];
+    T5 -- T5TAY;
+    T5TBI [label="BI", fillcolor=gray, style=filled];
+    T5 -- T5TBI;
+    T5TBS [label="BS", fillcolor=gray, style=filled];
+    T5 -- T5TBS;
+    T5TCN [label="CN", fillcolor=gray, style=filled];
+    T5 -- T5TCN;
+    T5TCX [label="CX", fillcolor=gray, style=filled];
+    T5 -- T5TCX;
+    T5TDH [label="DH", fillcolor=gray, style=filled];
+    T5 -- T5TDH;
+    T5TDR [label="DR", fillcolor=gray, style=filled];
+    T5 -- T5TDR;
+    T5TEB [label="EB", fillcolor=gray, style=filled];
+    T5 -- T5TEB;
+    T5T06 [label="", style=""];
+    T5 -- T5T06;
+  }
+  subgraph Cluster_tisch6 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T6 [label="Tisch 6"];
+    node [shape=circle width=1]
+    T6TAF [label="AF", fillcolor=gray, style=filled];
+    T6 -- T6TAF;
+    T6TAP [label="AP", fillcolor=gray, style=filled];
+    T6 -- T6TAP;
+    T6TAZ [label="AZ", fillcolor=gray, style=filled];
+    T6 -- T6TAZ;
+    T6TBJ [label="BJ", fillcolor=gray, style=filled];
+    T6 -- T6TBJ;
+    T6TBT [label="BT", fillcolor=gray, style=filled];
+    T6 -- T6TBT;
+    T6TCD [label="CD", fillcolor=gray, style=filled];
+    T6 -- T6TCD;
+    T6TCY [label="CY", fillcolor=gray, style=filled];
+    T6 -- T6TCY;
+    T6TDI [label="DI", fillcolor=gray, style=filled];
+    T6 -- T6TDI;
+    T6TDS [label="DS", fillcolor=gray, style=filled];
+    T6 -- T6TDS;
+    T6TEC [label="EC", fillcolor=gray, style=filled];
+    T6 -- T6TEC;
+    T6T05 [label="", style=""];
+    T6 -- T6T05;
+  }
+  subgraph Cluster_tisch7 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T7 [label="Tisch 7"];
+    node [shape=circle width=1]
+    T7TAG [label="AG", fillcolor=gray, style=filled];
+    T7 -- T7TAG;
+    T7TAQ [label="AQ", fillcolor=gray, style=filled];
+    T7 -- T7TAQ;
+    T7TBA [label="BA", fillcolor=gray, style=filled];
+    T7 -- T7TBA;
+    T7TBK [label="BK", fillcolor=gray, style=filled];
+    T7 -- T7TBK;
+    T7TBU [label="BU", fillcolor=gray, style=filled];
+    T7 -- T7TBU;
+    T7TCE [label="CE", fillcolor=gray, style=filled];
+    T7 -- T7TCE;
+    T7TCO [label="CO", fillcolor=gray, style=filled];
+    T7 -- T7TCO;
+    T7TDJ [label="DJ", fillcolor=gray, style=filled];
+    T7 -- T7TDJ;
+    T7TDT [label="DT", fillcolor=gray, style=filled];
+    T7 -- T7TDT;
+    T7TED [label="ED", fillcolor=gray, style=filled];
+    T7 -- T7TED;
+    T7T04 [label="", style=""];
+    T7 -- T7T04;
+  }
+  subgraph Cluster_tisch8 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T8 [label="Tisch 8"];
+    node [shape=circle width=1]
+    T8TAH [label="AH", fillcolor=gray, style=filled];
+    T8 -- T8TAH;
+    T8TAR [label="AR", fillcolor=gray, style=filled];
+    T8 -- T8TAR;
+    T8TBB [label="BB", fillcolor=gray, style=filled];
+    T8 -- T8TBB;
+    T8TBL [label="BL", fillcolor=gray, style=filled];
+    T8 -- T8TBL;
+    T8TBV [label="BV", fillcolor=gray, style=filled];
+    T8 -- T8TBV;
+    T8TCF [label="CF", fillcolor=gray, style=filled];
+    T8 -- T8TCF;
+    T8TCP [label="CP", fillcolor=gray, style=filled];
+    T8 -- T8TCP;
+    T8TCZ [label="CZ", fillcolor=gray, style=filled];
+    T8 -- T8TCZ;
+    T8TDU [label="DU", fillcolor=gray, style=filled];
+    T8 -- T8TDU;
+    T8TEE [label="EE", fillcolor=gray, style=filled];
+    T8 -- T8TEE;
+    T8T03 [label="", style=""];
+    T8 -- T8T03;
+  }
+  subgraph Cluster_tisch9 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T9 [label="Tisch 9"];
+    node [shape=circle width=1]
+    T9TAI [label="AI", fillcolor=gray, style=filled];
+    T9 -- T9TAI;
+    T9TAS [label="AS", fillcolor=gray, style=filled];
+    T9 -- T9TAS;
+    T9TBC [label="BC", fillcolor=gray, style=filled];
+    T9 -- T9TBC;
+    T9TBM [label="BM", fillcolor=gray, style=filled];
+    T9 -- T9TBM;
+    T9TBW [label="BW", fillcolor=gray, style=filled];
+    T9 -- T9TBW;
+    T9TCG [label="CG", fillcolor=gray, style=filled];
+    T9 -- T9TCG;
+    T9TCQ [label="CQ", fillcolor=gray, style=filled];
+    T9 -- T9TCQ;
+    T9TDA [label="DA", fillcolor=gray, style=filled];
+    T9 -- T9TDA;
+    T9TDK [label="DK", fillcolor=gray, style=filled];
+    T9 -- T9TDK;
+    T9TEF [label="EF", fillcolor=gray, style=filled];
+    T9 -- T9TEF;
+    T9T02 [label="", style=""];
+    T9 -- T9T02;
+  }
+  subgraph Cluster_tisch10 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T10 [label="Tisch 10"];
+    node [shape=circle width=1]
+    T10TAJ [label="AJ", fillcolor=gray, style=filled];
+    T10 -- T10TAJ;
+    T10TAT [label="AT", fillcolor=gray, style=filled];
+    T10 -- T10TAT;
+    T10TBD [label="BD", fillcolor=gray, style=filled];
+    T10 -- T10TBD;
+    T10TBN [label="BN", fillcolor=gray, style=filled];
+    T10 -- T10TBN;
+    T10TBX [label="BX", fillcolor=gray, style=filled];
+    T10 -- T10TBX;
+    T10TCH [label="CH", fillcolor=gray, style=filled];
+    T10 -- T10TCH;
+    T10TCR [label="CR", fillcolor=gray, style=filled];
+    T10 -- T10TCR;
+    T10TDB [label="DB", fillcolor=gray, style=filled];
+    T10 -- T10TDB;
+    T10TDL [label="DL", fillcolor=gray, style=filled];
+    T10 -- T10TDL;
+    T10TDV [label="DV", fillcolor=gray, style=filled];
+    T10 -- T10TDV;
+    T10T01 [label="", style=""];
+    T10 -- T10T01;
+  }
+  subgraph Cluster_tisch11 {
+    node [shape=circle, width=2, fillcolor=gray, style=filled]
+    T11 [label="Tisch 11"];
+    node [shape=circle width=1]
+    T11TAK [label="AK", fillcolor=gray, style=filled];
+    T11 -- T11TAK;
+    T11TAU [label="AU", fillcolor=gray, style=filled];
+    T11 -- T11TAU;
+    T11TBE [label="BE", fillcolor=gray, style=filled];
+    T11 -- T11TBE;
+    T11TBO [label="BO", fillcolor=gray, style=filled];
+    T11 -- T11TBO;
+    T11TBY [label="BY", fillcolor=gray, style=filled];
+    T11 -- T11TBY;
+    T11TCI [label="CI", fillcolor=gray, style=filled];
+    T11 -- T11TCI;
+    T11TCS [label="CS", fillcolor=gray, style=filled];
+    T11 -- T11TCS;
+    T11TDC [label="DC", fillcolor=gray, style=filled];
+    T11 -- T11TDC;
+    T11TDM [label="DM", fillcolor=gray, style=filled];
+    T11 -- T11TDM;
+    T11TDW [label="DW", fillcolor=gray, style=filled];
+    T11 -- T11TDW;
+    T11TEG [label="EG", fillcolor=gray, style=filled];
+    T11 -- T11TEG;
+  }
+}
